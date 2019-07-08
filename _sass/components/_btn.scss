@@ -1,0 +1,45 @@
+a:hover {
+color: $principal-color;
+text-decoration: none;
+}
+a:visited {
+color: purple;
+text-decoration: none;
+}
+
+.cta {
+    border-radius: 11px;
+    color: white;
+    padding: 11px 20px;
+    font-size: 20px;
+}
+.first {
+    background-color: $secondary-color;
+}
+.first:hover {
+    background-color: $principal-color;
+}
+.second {
+    color: $principal-color;
+    background-color: white;
+}
+.second:hover {
+  background-color: $principal-color;
+}
+
+.call_to_action {
+    margin: 41px 0px 41px 0px;
+
+}
+
+.book_green_navbar {
+  background-color: $secondary-color;
+  border-radius: 11px;
+  color: white;
+  padding: 8px 12px;
+
+}
+.book_green_navbar:hover {
+  background-color: $principal-color;
+  color: white;
+}

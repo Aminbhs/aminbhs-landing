@@ -1,0 +1,154 @@
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.banner {
+    img.workshop {
+        width: 88%;
+    }
+    img.img_tools{
+        height: 70px;
+    }
+}
+
+.newsletter {
+    margin-top: 46px;
+}
+
+
+
+.principale {
+    padding: 40px 0px 40px 0px;
+    background-color: white;
+    h2 {
+        color: $secondary-color;
+    }
+}
+
+.secondary {
+    padding: 40px 0px 40px 0px;
+    color: white;
+    background-color: $secondary-color;
+}
+
+.center {
+    text-align: center;
+}
+
+.dispo {
+  background-color: $principal-color;
+  color: white;
+  border-radius: 50px;
+  width: 114px;
+  height: 24px;
+  position: relative;
+margin-bottom: 24px;
+
+    .circle_green {
+      height: 15px;
+      width: 15px;
+      background-color: $green;
+      border-radius: 50px;
+      margin: 4px 8px;
+      position: absolute;
+      left: 0px;
+    }
+    .dispo_text {
+      font-size: 12px;
+      font-weight: 300;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      left: 29px;
+      top: 3px;
+    }
+}
+
+
+.bio {
+  padding-bottom: 24px;
+}
+
+.skills {
+  text-align: center;
+}
+.skill {
+    color: $principal-color;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-weight: 300;
+    width: 174px;
+    border: 2px solid #18293B;
+}
+
+
+@media only screen and (max-width: 400px) {
+  #formation, #freelance{
+    padding: 22px;
+  }
+
+  h4 {
+    font-size: 1rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    padding-top: 10px;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+
+  #formation .btn{
+    margin-top: 38px !important;
+  }
+
+   #freelance .btn{
+    margin-top: 38px !important;
+  }
+
+  .btn{
+    font-size: 14px !important;
+  }
+}
+
+// end css marine
+@media screen and (max-width: 992px) {
+  .skill {
+  padding: 5px 0px;
+  width: 160px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .skill {
+      padding: 5px 0px;
+      width: 160px;
+      margin-bottom: 13px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-bottom: 27px;
+    }
+
+  .skill {
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 206px;
+
+  }
+  .dispo {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .call_to_action {
+    margin-top: 40px;
+  }
+}
